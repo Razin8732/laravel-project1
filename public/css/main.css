@@ -1,0 +1,131 @@
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.product-title {
+    text-overflow: ellipsis;
+    line-height: 17px;
+    height: 35px;
+    white-space: nowrap;
+}
+
+.product-title a {
+    color: black !important;
+}
+
+.product-rating {
+    height: 25px;
+    max-width: 45px;
+    padding: 2px 4px 2px 6px;
+    background-color: #388e3c;
+    color: white;
+    vertical-align: middle;
+}
+
+.product-rating svg {
+    position: absolute;
+    margin: 1px 0px 0px 3px;
+}
+
+.product-raters {
+    color: #878787;
+    font-weight: 500;
+}
+
+.product-finalprice {
+    font-weight: 700;
+    padding: 0 !important;
+}
+
+.product-price {
+    color: #878787;
+    text-decoration: line-through;
+}
+
+.product-discount {
+    font-weight: bold;
+    color: #3e8e3c;
+}
+
+.product-card a:hover {
+    text-decoration: underline;
+}
+
+.product-card a:focus {
+    text-decoration: underline;
+}
+
+.product-card:hover {
+    z-index: 2;
+    border: none !important;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.product-card {
+    transition: 0.1s ease;
+}
+
+.addToCart-BuyNow-Btn {
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.addToCart-Btn:hover {
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.addToCart-Btn {
+    z-index: 3;
+    background-color: #ff9f00;
+}
+
+.BuyNow-Btn:hover {
+    z-index: 3;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.BuyNow-Btn {
+    background-color: #fb641b;
+}
+
+
+/* .btn-container:hover {
+    color: red;
+    z-index: 3;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.11);
+} */
+
+.stretched-link::after {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+
+/* sidebar  css start */
+
+.sidebar {
+    height: 100vh;
+    width: 18%;
+    text-align: center;
+    border-right: 1px solid #cacbcc;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 5% 0px;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+}
