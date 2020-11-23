@@ -7,7 +7,8 @@
                 <li>Edit Product</li>
             </ul>
         </li>
-        <li><a href="/home">Users</a></li>
+        <li><a href="/home">Users</a>
+        </li>
 
     </ul>
 </div>
